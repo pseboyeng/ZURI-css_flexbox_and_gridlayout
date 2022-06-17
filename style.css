@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Oswald:wght@200;400&family=Roboto&display=swap');
+
+body {
+   font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+    width:50%;
+    flex-wrap:wrap;
+    margin:auto;
+    padding: 10px;
+  }
+
+  .column1 {
+    width:33%;
+    height: auto;
+    background-color:#ff9800;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .column2 {
+    width:33%;
+    height:auto;
+    background-color:#009688;
+  }
+
+  .column3 {
+    width:33%;
+    height: auto;
+    background-color:#002d28;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .title {
+    padding: 10px;
+    margin-left: 5%;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .icon {
+    width: 40px;
+    padding:12px;
+    margin-top: 15%;
+    margin-left: 8%;
+  }
+
+  .overlay {
+    background-color: white;
+    opacity: 0.2;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+
+  .description {
+    padding: 10px;
+    margin-left: 5%;
+    width: 46%;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
+  button {
+    border-style: none;
+    padding: 10px;
+    margin-left: 8%;
+    margin-bottom: 20%;
+    border-radius: 18px;
+    width: 40%;
+
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+
+  }
+
+  #btn-fnt-1{
+    color:#ff9800;
+  }
+
+  #btn-fnt-2{
+    color: #009688;
+  }
+
+  #btn-fnt-3{
+    color:#002d28;
+  }
+  
+  @media (min-width: 48em) {
+    .columns {
+      flex-wrap: nowrap;
+    }
+  }
